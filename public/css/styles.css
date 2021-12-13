@@ -172,7 +172,7 @@ article img {
     }
 
     .main-navbar li {
-margin: 0 5px;
+     margin: 0 5px;
     }
 
     article {
@@ -186,10 +186,16 @@ margin: 0 5px;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            
-
-        }
+            }
+       
+            footer ul {
+                list-style: none;
+                display: flex;
+            }
+       
 }
+
+
 
 .search {
     text-align: center;
@@ -268,3 +274,57 @@ text-align: center;
     color: rgb(46, 132, 245);
 }
 
+.form-nombreyap {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.form-username {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.form-email {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.form-fechanacimiento {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.form-domicilio {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.form-busqueda {
+    border-radius: 5px;
+    border: none;
+}
+
+.form-usuario {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.form-password {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.button-enviar {
+    background-color:rgb(46, 132, 245);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-family: "Roboto";
+}
