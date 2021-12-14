@@ -20,10 +20,14 @@ main {
 
 .main-header {
     background-color: #EAC926;
-    padding: 20px;
-  
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
 
-
+.banner {
+    width: 100%;
+    
 }
 
 
@@ -37,6 +41,7 @@ main {
 .copy-header {
     font-weight: bold;
     text-align: center;
+    margin-right: 10px;
 }
 
 
