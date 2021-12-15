@@ -10,12 +10,13 @@
 
 body {
     font-family: "Roboto";
-    background-color:lightgray;
+    background-color:whitesmoke;
     
 }
 
 main {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .main-header {
@@ -81,10 +82,22 @@ article {
     width: 90%;
     margin: 20px;
     background-color: white;
-    box-shadow: 8px 8px 8px 8px rgb(100, 100, 100);
+    box-shadow: none;
+    transition:all 2s;
     
       
 }
+
+article:hover {
+    box-shadow: 0px 0px 10px rgb(29, 24, 24);
+}
+
+article:hover .truck {
+    transition: all 2s;
+    transform: rotate(90deg);
+}
+
+
 
 article img {
     margin: auto;
@@ -133,8 +146,8 @@ article img {
             align-self: flex-end;
             justify-content: center;
             background-color: #ffffff;
-            width: 35px;
-            height: 35px;
+            width: 30px;
+            height: 30px;
             border: solid green 1px;
             border-radius: 100%;
             color: green;
@@ -181,7 +194,7 @@ article img {
     }
 
     article {
-        width: 18%;
+        width: 20%;
         margin: 20px;
         background-color: white;
         box-shadow: 8px 8px 8px 8px rgb(100, 100, 100);
@@ -210,7 +223,7 @@ article img {
     flex-wrap: wrap;
     margin-left: 20px;
     justify-content: center;
-    font-size: 20px;
+    font-size: 18px;
 
 
 }
@@ -312,7 +325,7 @@ text-align: center;
 }
 
 .form-busqueda {
-    border-radius: 5px;
+    border-radius: 2px;
     border: none;
 }
 
